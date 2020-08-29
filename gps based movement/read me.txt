@@ -1,0 +1,23 @@
+Tracks the movement and the direction of the turtle bot in 3d space 
+by recording the movements and effects this would have on position via the gps libary
+that produces x,y,z coordinates.
+
+when using this system install the file as an api in the turtle bot and when writing
+programs make sure to only move the robot by using the functions from the api 
+written here other wise it will loose track of where it is in space.
+also only use the vector form of gps coordinates as the goto is based on this
+
+contains comands for:
+
+intialise localisation - determins xyz and direction 
+move forward
+move backward
+turn left
+turn right
+
+goto coordinates
+and variations on the above for returning to start location
+
+future:
+improve robustness of the movement system, turtle can get stuck on blocks
+but will still try to move which increments the internal position.

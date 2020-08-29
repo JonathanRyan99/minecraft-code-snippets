@@ -1,0 +1,9 @@
+simple sorting robot
+
+3 lists outline the desired items for each chest
+
+the turtle scans its inventory and creates a new list 1-16 defining each
+inventory slot as 0,1,2, this represents their desired chest.
+the turtle bot will then move over each chest and deposite slots labeled 
+accordingly.
+
